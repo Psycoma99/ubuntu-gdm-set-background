@@ -215,9 +215,9 @@ No need, Already Reset. ${Red}(or unlikely background is not set using this Scri
     echo '@import url("resource:///org/gnome/shell/theme/original.css");
 #lockDialogGroup {
 background: '$color' url("resource:///org/gnome/shell/theme/gdm-background");
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center; }' >$GDM_RESOURCE_CONFIG_NAME.css
+background-repeat: repeat;
+background-size: contain;
+background-position: 0px 0px; }' >$GDM_RESOURCE_CONFIG_NAME.css
     cd /tmp
     CREATE_XML
     cd theme
